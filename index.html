@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+</head>
+<body>
+    <!-- Game Canvas -->
+    <div id="gameCanvas"></div>
+    
+    <!-- Inventory UI -->
+    <div id="inventory" class="inventory-panel">
+        <h3>Inventory</h3>
+        <div class="inventory-grid">
+            <div class="inventory-item">
+                <p>Axe: <span id="axe-count">1</span></p>
+            </div>
+            <div class="inventory-item">
+                <p>Pickaxe: <span id="pickaxe-count">1</span></p>
+            </div>
+            <div class="inventory-item">
+                <p>Wood: <span id="wood-count">0</span></p>
+            </div>
+            <div class="inventory-item">
+                <p>Stone: <span id="stone-count">0</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
